@@ -45,8 +45,6 @@ public class ProgramTests
             {
                 return null;
             }
-            
-            //BigInteger
             BigInteger result =  n * (n + 2) * (n * 2 + 1) / 8;
             return result.ToString();
         }
